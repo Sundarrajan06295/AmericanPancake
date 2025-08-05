@@ -16,7 +16,7 @@ const Home = () => {
           <div className="text-center">
             <h1 className="text-4xl sm:text-6xl font-display font-bold mb-6">
               <span className="bg-gradient-to-r from-primary-pink via-primary-blue to-primary-pink bg-clip-text">
-                The American Pancakes
+                American Pancakes
               </span>
             </h1>
             <p className="text-xl sm:text-2xl text-gray-700 mb-8 font-display italic">

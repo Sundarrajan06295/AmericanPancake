@@ -18,31 +18,35 @@ const Menu = () => {
   const [menuItems, setMenuItems] = useState<MenuItem[]>([
     // Mini Pancakes
     { id: '1', name: 'Maple Butter', price: 60, category: 'Mini Pancakes', description: 'Classic mini pancakes with rich maple butter' },
-    { id: '2', name: 'Dark Chocolate Heaven', price: 60, category: 'Mini Pancakes', description: 'Decadent dark chocolate mini pancakes' },
+    { id: '2', name: 'Dark Chocolate Heaven', price: 70, category: 'Mini Pancakes', description: 'Decadent dark chocolate mini pancakes' },
     { id: '3', name: 'White Chocolate Heaven', price: 70, category: 'Mini Pancakes', description: 'Creamy white chocolate delight' },
     { id: '4', name: 'Strawberry', price: 80, category: 'Mini Pancakes', description: 'Fresh strawberry mini pancakes' },
     { id: '5', name: 'Blueberry', price: 80, category: 'Mini Pancakes', description: 'Bursting with fresh blueberries' },
     { id: '6', name: 'Oreo Fillings', price: 80, category: 'Mini Pancakes', description: 'Crunchy Oreo cookie pieces' },
-    { id: '7', name: 'Butter Scotch', price: 80, category: 'Mini Pancakes', description: 'Rich butterscotch flavor' },
+    { id: '7', name: 'Butter Scotch', price: 90, category: 'Mini Pancakes', description: 'Rich butterscotch flavor' },
     { id: '8', name: 'Mango Delight', price: 80, category: 'Mini Pancakes', description: 'Tropical mango goodness' },
     
     // Signature Pancakes
     { id: '9', name: 'Cotton Candy', price: 70, category: 'Signature Pancakes', description: 'Fluffy cotton candy pancakes' },
-    { id: '10', name: 'KitKat Loaded', price: 80, category: 'Signature Pancakes', description: 'Loaded with KitKat pieces' },
-    { id: '11', name: 'Nutella Delight', price: 80, category: 'Signature Pancakes', description: 'Rich Nutella spread' },
+    { id: '10', name: 'KitKat Loaded', price: 100, category: 'Signature Pancakes', description: 'Loaded with KitKat pieces' },
+    { id: '11', name: 'Nutella Delight', price: 90, category: 'Signature Pancakes', description: 'Rich Nutella spread' },
     { id: '12', name: 'Double Chocolate Blast', price: 80, category: 'Signature Pancakes', description: 'Double dose of chocolate' },
-    { id: '13', name: 'Triple Bytes', price: 90, category: 'Signature Pancakes', description: 'Three layers of goodness' },
-    { id: '14', name: 'Red Velvet Cheesecake', price: 90, category: 'Signature Pancakes', description: 'Classic red velvet with cheesecake' },
-    { id: '15', name: 'Lotus Biscoff', price: 110, category: 'Signature Pancakes', description: 'Premium Lotus Biscoff flavor' },
+    { id: '13', name: 'Triple Bytes', price: 100, category: 'Signature Pancakes', description: 'Three layers of goodness' },
+    { id: '14', name: 'Red Velvet Cheesecake', price: 100, category: 'Signature Pancakes', description: 'Classic red velvet with cheesecake' },
+    { id: '15', name: 'Lotus Biscoff', price: 120, category: 'Signature Pancakes', description: 'Premium Lotus Biscoff flavor' },
+    { id: '16', name: 'Malai Kulfi', price: 120, category: 'Signature Pancakes', description: 'Premium Malai Kulfi flavor' },
+    { id: '17', name: 'Cheesy Touch', price: 120, category: 'Signature Pancakes', description: 'Premium Cheesy Touch flavor' },
+    { id: '18', name: 'JDs Chocolate', price: 120, category: 'Signature Pancakes', description: 'Premium Lotus Biscoff flavor' },
     
     // Brocolates
-    { id: '16', name: 'Dark Chocolate', price: 90, category: 'Brocolates', description: 'Rich dark chocolate brocolate' },
-    { id: '17', name: 'White Chocolate', price: 100, category: 'Brocolates', description: 'Smooth white chocolate' },
-    { id: '18', name: 'Milk Chocolate', price: 100, category: 'Brocolates', description: 'Creamy milk chocolate' },
-    { id: '19', name: 'Oreo Loaded', price: 100, category: 'Brocolates', description: 'Oreo cookie loaded' },
-    { id: '20', name: 'Nutella', price: 110, category: 'Brocolates', description: 'Nutella spread goodness' },
-    { id: '21', name: 'Death by Chocolate', price: 120, category: 'Brocolates', description: 'Ultimate chocolate experience' },
-    { id: '22', name: 'Lotus Biscoff', price: 120, category: 'Brocolates', description: 'Premium Lotus Biscoff' },
+    { id: '19', name: 'Dark Chocolate', price: 90, category: 'Brocolates', description: 'Rich dark chocolate brocolate' },
+    { id: '20', name: 'White Chocolate', price: 100, category: 'Brocolates', description: 'Smooth white chocolate' },
+    { id: '21', name: 'Milk Chocolate', price: 100, category: 'Brocolates', description: 'Creamy milk chocolate' },
+    { id: '22', name: 'Oreo Loaded', price: 100, category: 'Brocolates', description: 'Oreo cookie loaded' },
+    { id: '23', name: 'Nutella', price: 110, category: 'Brocolates', description: 'Nutella spread goodness' },
+    { id: '24', name: 'Death by Chocolate', price: 120, category: 'Brocolates', description: 'Ultimate chocolate experience' },
+    { id: '25', name: 'Lotus Biscoff', price: 120, category: 'Brocolates', description: 'Premium Lotus Biscoff' },
+    { id: '26', name: 'Butter Scotch', price: 120, category: 'Brocolates', description: 'Premium Butter Scotch' },
   ]);
 
   const handleImageUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
