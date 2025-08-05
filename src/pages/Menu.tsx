@@ -34,8 +34,8 @@ const Menu = () => {
     { id: '13', name: 'Triple Bytes', price: 100, category: 'Signature Pancakes', description: 'Three layers of goodness' },
     { id: '14', name: 'Red Velvet Cheesecake', price: 100, category: 'Signature Pancakes', description: 'Classic red velvet with cheesecake' },
     { id: '15', name: 'Lotus Biscoff', price: 120, category: 'Signature Pancakes', description: 'Premium Lotus Biscoff flavor' },
-    { id: '16', name: 'Malai Kulfi', price: 120, category: 'Signature Pancakes', description: 'Premium Malai Kulfi flavor' },
-    { id: '17', name: 'Cheesy Touch', price: 120, category: 'Signature Pancakes', description: 'Premium Cheesy Touch flavor' },
+    { id: '16', name: 'Malai Kulfi', price: 100, category: 'Signature Pancakes', description: 'Premium Malai Kulfi flavor' },
+    { id: '17', name: 'Cheesy Touch', price: 100, category: 'Signature Pancakes', description: 'Premium Cheesy Touch flavor' },
     { id: '18', name: 'JDs Chocolate', price: 120, category: 'Signature Pancakes', description: 'Premium Lotus Biscoff flavor' },
     
     // Brocolates
@@ -46,7 +46,7 @@ const Menu = () => {
     { id: '23', name: 'Nutella', price: 110, category: 'Brocolates', description: 'Nutella spread goodness' },
     { id: '24', name: 'Death by Chocolate', price: 120, category: 'Brocolates', description: 'Ultimate chocolate experience' },
     { id: '25', name: 'Lotus Biscoff', price: 120, category: 'Brocolates', description: 'Premium Lotus Biscoff' },
-    { id: '26', name: 'Butter Scotch', price: 120, category: 'Brocolates', description: 'Premium Butter Scotch' },
+    { id: '26', name: 'Butter Scotch', price: 110, category: 'Brocolates', description: 'Premium Butter Scotch' },
   ]);
 
   const handleImageUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
